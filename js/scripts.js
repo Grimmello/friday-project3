@@ -14,6 +14,11 @@ $(function() {
         integers.push(i);
       }
     };
-    console.log(integers);
+
+    integers.forEach(function(fill) {
+      $("ul#outputList").append("<li>"+fill+"</li>");
+    });
+    $(".panel").show();
+    $("#outputList").show();
   });
 });
