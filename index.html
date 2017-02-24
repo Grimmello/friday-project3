@@ -5,10 +5,30 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>
+    <title> Ping-Pong
     </title>
   </head>
   <body>
-
+    <div class="container">
+      <h1>Ping Pong</h1>
+      <p class="panel" id="description"> Enter a number and it will print out a list. If a number is equal to a multiple of 3, it will be replaced with "ping". If it is equal to a multiple of 5, it will display "pong". If it is a multiple of 15, it will display "pingpong".
+      </p>
+      <form id="formNumber">
+        <div id="formInput">
+          <label for="inputNumber">Input number here:</label><br>
+          <input id="inputNumber" type="number" required>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <form id = "clear">
+        <button type="submit" class="btn">Clear</button>
+      </form>
+      <div class="panel" id="outputPanel">
+        <div id="output">
+          <ul id="outputList">
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
