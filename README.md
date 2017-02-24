@@ -1,40 +1,44 @@
 
-# A bash script tool to help streamline creation of new websites for Epicodus
+# A Ping-Pong game
 
 #### 8 Feb., 2017, v.1.0.0
 
-#### By _Mark Fisher and Clifford Grimmell_
+#### By _Clifford Grimmell_
 
 ## Description
 
-This script takes three arguments from the user (repo name, parter 1 initials, and partner 2 initials), and uses those variables to create a directory with repo name, create a "css" subdirectory, create an "img" subdirectory, create a styles.css document in the css subdirectory, create an index.html document in the repo folder, initialized the folder as a git repo, executes `git pair` with partner 1's and partner 2's intials, adds everything, makes a first paired commit, and opens the directory in atom.
+This page takes an input value and will count up to it. However, multiples of 3, 5, or 15 will be replaced with "ping", "pong", or "pingpong" respectively. They will then be displayed in a list. Press the Clear button to clear the list.
 
 ## Setup/Installation Requirements
 
 * _clone this repo. (to your Desktop)_
-* _open terminal_
-* _type_ `~/Desktop/websiteRepoSetup/./websiteRepoSetup.sh [yourRepoName] [partner1Initials] [partner2Initials]`
-* _enjoy_
+* _open index.html_
+* _type a number into the form_
 
+
+## Specs
+
+![Spec Sheet](/img/specs.png)
 
 ## Known Bugs
 
-_There are no known bugs. I'd be interested to know if you find any._
+_There are no known bugs._
 
 ## Support and contact details
 
-_Please feel free to contact mark.aaron.fisher@gmail.com for questions_
+_Please feel free to contact [Clifford] for questions_
 
 ## Technologies Used
 
-_bash_
-_git_
+_HTML_
+_Javascript_
+_Css_
 
 ### License
 
 *This software is licensed under the MIT license.*
 
-Copyright (c) 2017 Mark Fisher and Clifford Grimmell
+Copyright (c) 2017 Clifford Grimmell
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -53,3 +57,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+[Clifford]: mailto:agrimmell2@gmail.com
